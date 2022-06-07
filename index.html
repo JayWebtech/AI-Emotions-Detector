@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Emotion detector</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tailwind.min.css">
+</head>
+<body>
+    <h1>WEB-BASED FACIAL AND EMOTIONAL IDENTIFICATION SOFTWARE</h1>
+   <br>
+   <div class="container">
+       <div class="row">
+            <div class="col-md-3">
+            </div>
+           <div class="col-md-2">
+                <div class="emotion js-emotion text-center text-white text-2xl uppercase relative text-1xl">EMOTION</div>
+           </div>
+           <div class="col-md-2">
+               <div class="gender js-gender text-center text-white text-2xl uppercase relative text-1xl">Gender</div>
+           </div>
+           <div class="col-md-2">
+                <div class="age js-age text-center text-white  text-2xl uppercase relative text-1xl">Age</div>
+           </div>
+           <div class="col-md-3">
+            </div>
+       </div>
+   </div>
+   <br>
+     <div class="flex justify-center items-center relative">
+        <canvas class="js-overlay absolute t-0"></canvas>
+        <video class="js-video" width="620" height="380" autoplay muted></video>
+      </div>
+      
+</body>
+<script src="js/face-api.min.js"></script>
+<script src="js/script.js"></script>
+</html>

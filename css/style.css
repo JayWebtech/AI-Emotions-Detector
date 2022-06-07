@@ -1,0 +1,35 @@
+@font-face{
+  font-family: Mont;
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+  font-family: Bold;
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+*{
+    font-family: Mont;
+}
+body { 
+    padding-top: 30px !important; 
+    background: #141301 !important; 
+    overflow-x: hidden;
+}
+
+video { 
+    border-radius: 5px; 
+}
+h1{
+    color: #ecce8e;
+    text-align: center;
+    font-size: 30px !important;
+    font-family: Bold;
+}
+.emotion {  
+}
+
+.gender { 
+}
+
+.age { 
+}
+
